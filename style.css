@@ -31,25 +31,18 @@
     padding: 40px;
   }
 
-  #contact-info h2 {
-    margin-top: 0;
-    margin-bottom: 10px;
+  #contact-info h4{
+    margin-top: 20px;
+    margin-left: 30px;
   }
-
-  #contact-info ul {
-    list-style: none;
+  #contact-info ul{
     padding: 0;
-    margin: 0;
+    margin-left: 60px;
+    margin-top: 20px;
   }
-
-  #contact-info ul li {
-    margin-bottom: 10px;
+  #contact-info p{
+    margin-left: 30px;
   }
-
-  #contact-info ul li:last-child {
-    margin-bottom: 0;
-  }
-  
   #education {
     background-color: rgb(207, 202, 196);
     border-left: 6px solid darkorange;
@@ -62,43 +55,35 @@
   }
 
   #education ul {
-    list-style: none;
     padding: 0;
-    margin: 0;
+    margin-left: 30px;
+    margin-top: 20px;
   }
 
-  #education ul li {
-    margin-bottom: 10px;
-  }
 
-  #education ul li:last-child {
-    margin-bottom: 0;
-  }
 
   #work-experience {
     background-color: rgb(207, 202, 196);
     border-left: 6px solid #333;
     padding: 40px;
   }
-
+  
   #work-experience h2 {
     margin-top: 0;
     margin-bottom: 10px;
-    
   }
-
-  #work-experience ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  #work-experience h4{
+    margin-top: 20px;
+    margin-left: 10px;
   }
-
-  #work-experience ul li {
-    margin-bottom: 10px;
+  #work-experience p{
+    margin-top: 20px;
+    margin-left: 30px;
   }
+  #work-experience ul{
+    margin-top: 20px;
+    margin-left: 30px;
 
-  #work-experience ul li:last-child {
-    margin-bottom: 0;
   }
  .text-center{
     display: flex;
@@ -119,9 +104,14 @@
     background-color:  rgb(207, 202, 196);
     width: 80%;
   } 
+  #references{
+    background-color: rgb(207, 202, 196);
+    border-left: 6px solid darkorange;
+    padding: 40px;
+  }
   #contact{
     padding: 40px;
-    border-left: 6px solid darkorange;
+    border-left: 6px solid  #333;
   }
   .formulario{
     display: flex;
@@ -137,9 +127,27 @@
   }
   footer{
     background-color: #333;
-    padding: 30px;
+
     margin-top: 10px;
     margin-left: 40px;
     margin-right: 40px;
     border-top:6px solid darkorange ;
+    top: 100px;
+    padding-left: 750px;
+    bottom: 100px;
   }
+  footer .logos-ft a{
+    display: inline-block;
+    width: 55px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px; 
+}
+  
