@@ -125,19 +125,30 @@
     top: 100px;
     padding-left: 750px;
     bottom: 100px;
+
   }
-  footer .logos-ft a{
-    display: inline-block;
+  .logos-ft {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     width: 55px;
     height: 60px;
     cursor: pointer;
     border-radius: 2px;
     font-size: 20px;
-    color: #ffffff;
-    text-align: center;
     line-height: 35px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-right: 5px;
-    margin-bottom: 5px; 
-}
+    font-size: 40px;
+  }
+  .logos-ft a{
+    color: #ffffff;;
+    justify-content: center;
+    text-align: center;
+    margin-right: 30px;
+  }
+  .logos-ft a:hover{
+    color: darkorange;
+  }
+ 
   
